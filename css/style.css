@@ -5,19 +5,33 @@ html {
 *, *::before, *::after {
     box-sizing: inherit;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25vw;
 }
 
-.headers, .sub-headers {
+strong, em {
+    font-size: inherit; font-style: inherit;
+}
+
+.headers, .sub-headers, .headers strong, .headers em {
 font-weight: bold;
 
 }
 
-.header.hook {
-    font-size:;
+.headers .hook,  {
+    font-size: 1.4vw; font-style: normal;
 }
 
-/* .sub-headers {
+.headers .line {
+font-size: 3vw; font-style: normal;
+}
 
+.headers .stinger {
+font-size: 1.8vw; font-style: normal;
+}
+
+
+ /* .sub-headers {
+font-size: 5rem;
 }
 
 .content, strong, em {
@@ -31,4 +45,5 @@ font-weight: bold;
 
 .dish-img {
 
-} */
+} 
+ */
